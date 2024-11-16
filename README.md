@@ -50,7 +50,7 @@ The dataset, `lending_data.csv`, includes the following columns:
 
     accuracy                           0.99     19384
    macro avg       0.92      0.97      0.94     19384
-   weighted avg       0.99      0.99      0.99     19384
+   weighted avg    0.99      0.99      0.99     19384
     ```
 
 
