@@ -60,6 +60,22 @@ The dataset, `lending_data.csv`, includes the following columns:
 - The model achieves high accuracy (99%) and performs well in predicting healthy loans with high precision and recall.
 - For high-risk loans, the recall is strong (0.95), indicating that most high-risk cases are identified, though the precision (0.85) shows some false positives.
 
+### Recommendation:
+Yes, I recommend the model for company use with the following considerations:
+
+1. **Strengths**:  
+   - The model achieves **99% accuracy**, meaning it performs very well overall.  
+   - Its high recall of **0.95** for high-risk loans ensures that most high-risk loans are correctly identified, minimizing the chances of missing critical cases.
+
+2. **Weaknesses**:  
+   - The precision for high-risk loans is **0.85**, indicating that 15% of loans predicted as high-risk may actually be healthy. This could lead to unnecessary actions taken on loans mistakenly identified as high-risk.  
+
+3. **Contextual Use**:  
+   - If the company values identifying high-risk loans with minimal false negatives (missing high-risk loans), the model is a good fit.  
+   - However, if precision is critical (e.g., reducing unnecessary interventions for loans incorrectly flagged as high-risk), further fine-tuning or an additional layer of decision-making might be necessary.
+
+In conclusion, the model is reliable and suitable for deployment, especially if paired with monitoring and iterative improvements to handle the trade-off between precision and recall for high-risk loans.
+
 ## About the Author
 **Widchy Joachim - Data Analyst**
 
