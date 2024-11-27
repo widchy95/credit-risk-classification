@@ -76,7 +76,7 @@ Yes, I recommend the model for company use with the following considerations:
 
 In conclusion, the model is reliable and suitable for deployment, especially if paired with monitoring and iterative improvements to handle the trade-off between precision and recall for high-risk loans.
 
-## About the Author
+## Made by
 **Widchy Joachim - Data Analyst**
 
 GitHub: [@widchy95](https://github.com/widchy95)
